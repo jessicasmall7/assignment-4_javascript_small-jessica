@@ -9,8 +9,14 @@ var clinton = {firstName:"Bill", lastName:"Clinton", termLength:4, party:"Democr
 var bushSr = {firstName:"George", lastName:"Bush", termLength:4, party:"Republican", yearsOfPresidency:4};
 
 var presidents = [
-  trump, obama, bush, clinton, bushSr
+  trump,
+  obama,
+  bush,
+  clinton,
+  bushSr
 ];
 
 
 console.log( bush.firstName+ " " +bush.lastName );
+
+//console.log ( presidents.bush.firstName + " " + presidents.bush.lastName );
